@@ -1,5 +1,5 @@
 # README
-* Tempo do Video: 22:00
+* Tempo do Video: 25:00
 
 * Versão:
 
