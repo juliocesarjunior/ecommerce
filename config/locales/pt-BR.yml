@@ -9,20 +9,7 @@ pt-BR:
     attributes:
       created_at: "Criado em"
       update_at: "Modificado em"
-      documento:
-        flag_doc_diario: "DIÁRIO GERAL"
-        flag_lrf: "LEI DE RESPONSABILIDADE FISCAL"
-        flag_loa: "LEI ORCAMENTÁRIA ANUAL"
-        flag_ldo: "LEI DE DIRETRIZES ORÇAMENTÁRIAS"
-        categoria: "Classificação do ato"
-        data_publicacao_inicial: "Data Publicação Inicial"
-        data_publicacao_final: "Data Publicação Final"
-        tipo_lrf: "Categoria do Documento"
-        ppa: "PLANO PLURIANUAL"
-        ppa_ano_inicial: "Ano Inicial do PPA"
-        ppa_ano_final: "Ano Final do PPA"
-        ldo_ano: "Ano da LDO"
-      administrador:
+      user:
         password: "Senha"
         password_confirmation: "Confirmação de senha"
         name: "Nome"
