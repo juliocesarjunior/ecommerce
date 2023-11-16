@@ -1,5 +1,5 @@
 # README
-* Video 4: 00:00:00
+* Video 4: 00:42:13
 
 * Versão:
 

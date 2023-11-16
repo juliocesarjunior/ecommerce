@@ -57,7 +57,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'factory_bot_rails'
   gem 'faker'
-  #gem 'pry', '~> 0.13.1'
+  gem 'pry-rails'
   gem 'rspec-rails', '~> 6.0.0'
   gem 'rubocop'
 end
@@ -77,6 +77,7 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem "webmock"
   gem "webdrivers"
   gem 'database_cleaner'
   gem 'shoulda-matchers'
