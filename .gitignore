@@ -52,6 +52,7 @@ bower.json
 
 # Ignore node_modules
 node_modules/
+/app/assets/builds
 
 # Ignore precompiled javascript packs
 /public/packs
