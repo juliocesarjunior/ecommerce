@@ -1,5 +1,5 @@
 # README
-* Video 5: 00:53:00
+* Video 5: 01:17:00
 
 * Versão:
 
@@ -13,7 +13,6 @@ Siga os passos abaixo para configurar o sistema no seu computador.
 1. Instalar todas as dependências assets: `yarn install`
 2. Instalar todas as dependências do rails (gems): `bundle install`
 3. Configure o arquivo `database.yml` que está na pasta config com seu usuário e senha.
-4. Com o banco de dados configurado gere os bancos: `rails db:create`
-5. Agora execute as migrações: `rails db:migrate`
-6. execute : `bin/dev`
-7. Fim
+4. Com o banco de dados configurado gere os bancos: `rails db:create db:migrate db:seed` ou `make reset`
+5 execute : `bin/dev`
+6. Fim
