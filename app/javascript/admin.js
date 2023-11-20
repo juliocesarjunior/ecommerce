@@ -1,6 +1,11 @@
+import "./admin/jquery"
 import "@hotwired/turbo-rails"
 Turbo.session.drive = false
-import "./admin/jquery"
 import "./controllers"
-import * as bootstrap from "bootstrap"
+//import * as bootstrap from "bootstrap"
+import "./admin/bootstrap/js/bootstrap.bundle.min"
+import "./admin/jquery-easing/jquery.easing.min"
 import "./admin/main.min"
+import "./admin/chart.js/Chart.min"
+import "./admin/demo/chart-area-demo"
+import "./admin/demo/chart-pie-demo"

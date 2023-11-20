@@ -10,7 +10,7 @@
     "esbuild": "^0.15.10",
     "font-awesome": "4.7.0",
     "inputmask": "^5.0.7",
-    "jquery": "^3.7.1",
+    "jquery": "^3.6.0",
     "sass": "^1.55.0"
   },
   "scripts": {
