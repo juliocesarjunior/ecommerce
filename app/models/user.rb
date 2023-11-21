@@ -6,6 +6,6 @@ class User < ApplicationRecord
 
   validates :name, :phone, presence: true
 
-  enum status: {admin: 'admin', user: 'user'}
+  enum role: { user: 'user', admin: 'admin' }
 
 end

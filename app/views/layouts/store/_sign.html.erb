@@ -1,4 +1,7 @@
 <% if user_signed_in? %>
+<% if current_user.admin? %>
+<%= link_to "Acessar", admin_authenticated_root_path, class: "btn btn-outline-dark me-2"%>
+<% end -%>
 <%= link_to "Sair", destroy_user_session_path, method: :get, class: "btn btn-outline-dark me-2"%>
 <% else %>
 <%= link_to "Cadastre-se", user_session_path, class: "btn btn-outline-dark me-2"%>
