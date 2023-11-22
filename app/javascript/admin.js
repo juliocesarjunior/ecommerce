@@ -1,6 +1,6 @@
 import "./admin/jquery"
 import "@hotwired/turbo-rails"
-Turbo.session.drive = false
+// Turbo.session.drive = false
 import "./controllers"
 import "./admin/bootstrap/js/bootstrap.bundle.min"
 import "./admin/jquery-easing/jquery.easing.min"
