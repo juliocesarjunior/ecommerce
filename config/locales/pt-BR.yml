@@ -14,6 +14,15 @@ pt-BR:
         password_confirmation: "Confirmação de senha"
         name: "Nome"
         phone: "Telefone"
+      category:
+        name: "Nome"
+        position: "Posição"
+      product:
+        name: "Nome"
+        description: "Descrição"
+        price: "Preço"
+        publish: "Publicar"
+        category: "Categoria"
     errors:
       messages:
         record_invalid: 'A validação falhou: %{errors}'

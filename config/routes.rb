@@ -20,6 +20,9 @@ Rails.application.routes.draw do
 
   namespace :admin do
     root 'home#index', as: :authenticated_root
+    
+    resources :categories
+    resources :products
   end
 
 end
